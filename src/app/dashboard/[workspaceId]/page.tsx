@@ -33,10 +33,10 @@ const Page = async ({ params: { workspaceId } }: Props) => {
           </div>
         </div>
         <section className="py-9">
-            <TabsContent value="videos">
-              <Folders workspaceId={workspaceId} />
-            </TabsContent>
-          </section>
+          <TabsContent value="videos">
+            <Folders workspaceId={workspaceId} />
+          </TabsContent>
+        </section>
       </Tabs>
     </div>
   );
